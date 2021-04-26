@@ -2,9 +2,15 @@
     background-color: teal;
 }
 
+h1 {
+    font-family: 'Grandstander', cursive; 
+    font-size: 3rem;  
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 img {
