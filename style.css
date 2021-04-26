@@ -24,11 +24,15 @@ img {
     width: 300px;
     height: 450px;
     margin: 10px;
-    -webkit-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
 }
 
 img:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transition: scale(1.1);
+   -moz-transition: scale(1.1);
+     -o-transition: scale(1.1);
+        transition: scale(1.1);
 }
